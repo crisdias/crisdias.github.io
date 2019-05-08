@@ -19,10 +19,16 @@
     * usando 'navigator.sendBeacon' em um navegador compatível.
     */
     var trackOutboundLink = function(url) {
-       ga('send', 'event', 'outbound', 'click', url, {
-         'transport': 'beacon',
-         'hitCallback': function(){document.location = url;}
-       });
+      if (ga.q) {
+        // Google Analytics is blocked
+        document.location = url;
+      } else {
+        ga("send", "event", "outbound", "click", url, {"hitCallback":
+          function () {
+            document.location = url;
+          }
+        });
+      }
     }
     </script>
 
@@ -287,8 +293,9 @@ function lunr_search(term) {
                       </a>
                     
 
+
                     <section class="promove">
-                        <h1>Gosta de podcasts?</h1>
+                        <h2>Gosta de podcasts?</h2>
 
                         <p>Conheça o <strong>Boa Noite Internet</strong>, o podcast que explica o mundo através de histórias interessantes. Ele é apresentado pelo Cris Dias e sai todo domingo 20h. Você pode ouvir no seu app favorito de podcasts (incluindo o <a href="https://open.spotify.com/show/4jZO3v9oZO88CjYiLKmFZA?si=wDmq1F9rQBmmIdGbOOF67w" title="Spotify">Spotify</a> e <a href="https://www.deezer.com/br/show/342882" title="Deezer">Deezer</a>) ou direto em <a href="https://www.boanoiteinternet.com.br/">www.boanoiteinternet.com.br</a>.
                     </section>
