@@ -6,6 +6,7 @@ favicon: 'assets/images/crisdias55.jpg'
 baseurl: ''
 avatar: 'assets/images/crisdias_small.jpg'
 email: 'crisdias@crisdias.com'
+url: 'https://crisdias.link'
 
 include: ["_pages"]
 permalink: /:title/
