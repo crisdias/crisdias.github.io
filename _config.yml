@@ -1,0 +1,48 @@
+# Site
+name: 'crisdicas'
+description: 'As melhores dicas e links de livros, séries, podcasts e bugigangas em geral'
+logo: 'assets/images/crisdias55.jpg'
+favicon: 'assets/images/crisdias55.jpg'
+baseurl: ''
+avatar: 'assets/images/crisdias_small.jpg'
+email: 'crisdias@crisdias.com'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
+# Categories
+mastercats: ['tv','game','filme','livro','podcast']
