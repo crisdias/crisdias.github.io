@@ -19,8 +19,9 @@
     * usando 'navigator.sendBeacon' em um navegador compatível.
     */
     var trackOutboundLink = function(url) {
-      if (ga.q) {
-        // Google Analytics is blocked
+        alert(document.location.hostname.indexOf("crisdias.link"));
+      if (ga.q) || if (document.location.hostname.indexOf("crisdias.link") == -1) {
+        // Google Analytics is blocked OR development environ
         document.location = url;
       } else {
         ga("send", "event", "outbound", "click", url, {"hitCallback":
