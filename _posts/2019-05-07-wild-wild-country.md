@@ -8,4 +8,4 @@ verb: 'Assista'
 short: A realidade é sempre melhor do que a ficção
 ---
 
-Fiquei vidrado.
+Doidera!!!
