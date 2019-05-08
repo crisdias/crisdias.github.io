@@ -13,7 +13,7 @@ layout: default
                         <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url={{site.url}}{{site.baseurl}}{{page.url}}&media={{site.url}}{{site.baseurl}}/{{page.image}}&description={{ page.title }}- {{ page.content | strip_html | truncatewords:25 }}"></a>
                     </span>
                     {% if page.visit %}
-                        <a target="_blank" href="{{page.visit}}">
+                        <a href="{{page.visit}}" onclick="trackOutboundLink('{{page.visit}}'); return false;">
                     {% endif %}
                     <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
                     {% if page.visit %}
@@ -39,7 +39,7 @@ layout: default
     				{{ content }}
                     
                     {% if page.visit %}
-                        <p><a target="_blank" href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold">
+                        <p><a href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold" onclick="trackOutboundLink('{{page.visit}}'); return false;">
                             {% if page.verb %}
                                 {{ page.verb }}
                             {% else %}

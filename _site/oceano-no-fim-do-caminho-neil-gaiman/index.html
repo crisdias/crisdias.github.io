@@ -1,9 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-399579-23"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-399579-23');
+    </script>
+
+    <script>
+    /**
+    * Função que acompanha um clique em um link externo no Analytics.
+    * Essa função processa uma string de URL válida como um argumento e usa essa string de URL
+    * como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
+    * usando 'navigator.sendBeacon' em um navegador compatível.
+    */
+    var trackOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {
+         'transport': 'beacon',
+         'hitCallback': function(){document.location = url;}
+       });
+    }
+    </script>
+
+    <!-- -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <meta http-equiv="Content-Language" content="pt-br">
     <title>O Oceano no fim do Caminho, Neil Gaiman | crisdicas</title>
     
     <!-- Begin Jekyll SEO tag v2.5.0 -->
@@ -206,7 +234,7 @@ function lunr_search(term) {
                         <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=http://192.168.0.109:4000/oceano-no-fim-do-caminho-neil-gaiman/&media=http://192.168.0.109:4000//assets/images/o-oceano-no-fim-do-caminho.jpg&description=O Oceano no fim do Caminho, Neil Gaiman- Neil Gaiman conta a história de um garoto de 7 anos que na verdade é ele mesmo, Neil Himself, ele assume a quem perguntar. Pra..."></a>
                     </span>
                     
-                        <a target="_blank" href="https://amzn.to/2LoIXZh">
+                        <a href="https://amzn.to/2LoIXZh" onclick="trackOutboundLink('https://amzn.to/2LoIXZh'); return false;">
                     
                     <img class="card-img-top mb-2" src="http://192.168.0.109:4000/assets/images/o-oceano-no-fim-do-caminho.jpg" alt="O Oceano no fim do Caminho, Neil Gaiman"> 
                     
@@ -232,7 +260,7 @@ function lunr_search(term) {
 
                     
                     
-                        <p><a target="_blank" href="https://amzn.to/2LoIXZh" class="btn btn-gray d-block font-weight-bold">
+                        <p><a href="https://amzn.to/2LoIXZh" class="btn btn-gray d-block font-weight-bold" onclick="trackOutboundLink('https://amzn.to/2LoIXZh'); return false;">
                             
                                 Compre
                             
