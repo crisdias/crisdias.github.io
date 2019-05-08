@@ -521,3 +521,7 @@ a.next {
   font-style: oblique;
   color: #ddd;
 }
+
+.promove h1 {
+  margin-top: 2em;
+}
