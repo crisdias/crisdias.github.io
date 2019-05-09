@@ -5,7 +5,8 @@ categories: [ música, américa latina, espanhol, uruguai, vídeo ]
 image: "/assets/images/j/jorge-drexler.png"
 visit: "https://www.youtube.com/watch?v=qn6rgisZm1M"
 verb: 'Ouça'
-short: "Um livro fofo"
+short: "Comecei a ouvir no momento certo"
+date: 2019-05-08 22:00
 ---
 
 Eu acredito em coincidências, mas também acredito que a gente escolhe umas coisas bem de propósito e depois diz que foi coincidência. Do nada, semana passada, comecei a ouvir **Jorge Drexler**, que até então era só um nome que eu reconhecia mas não sabia o que era. Começou com uma sugestão de vídeo no YouTube, depois um Insta Story de uma amiga falando que estava ouvindo… lá fui eu e não voltei mais.
