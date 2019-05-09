@@ -108,7 +108,7 @@ var documents = [{
     "id": 2,
     "url": "http://192.168.0.109:4000/",
     "title": "crisdicas — uma caixinha de surpresas",
-    "body": "                  {% include menu-categories. html %}                  {% for post in paginator. posts %}      {% include card-post. html %}    {% endfor %}                 {% if paginator. total_pages &gt; 1 %}          {% if paginator. previous_page %}      &laquo; Prev     {% else %}      &laquo; Prev     {% endif %}     {% for page in (1. . paginator. total_pages) %}      {% if page == paginator. page %}       {{ page }}      {% elsif page == 1 %}       {{ page }}      {% else %}       {{ page }}      {% endif %}     {% endfor %}     {% if paginator. next_page %}      Next &raquo;     {% else %}      Next &raquo;     {% endif %}        {% endif %}        "
+    "body": "                  {% include menu-categories. html %}                   {% for post in paginator. posts %}      {% include card-post. html %}    {% endfor %}                 {% if paginator. total_pages &gt; 1 %}          {% if paginator. previous_page %}      &laquo; Prev     {% else %}      &laquo; Prev     {% endif %}     {% for page in (1. . paginator. total_pages) %}      {% if page == paginator. page %}       {{ page }}      {% elsif page == 1 %}       {{ page }}      {% else %}       {{ page }}      {% endif %}     {% endfor %}     {% if paginator. next_page %}      Next &raquo;     {% else %}      Next &raquo;     {% endif %}        {% endif %}        "
     }, {
     "id": 3,
     "url": "http://192.168.0.109:4000/privacy-policy.html",
