@@ -19,7 +19,6 @@
     * usando 'navigator.sendBeacon' em um navegador compatível.
     */
     var trackOutboundLink = function(url) {
-        alert(document.location.hostname.indexOf("crisdias.link"));
       if (ga.q || document.location.hostname.indexOf("crisdias.link") == -1) {
         // Google Analytics is blocked OR development environ
         document.location = url;
