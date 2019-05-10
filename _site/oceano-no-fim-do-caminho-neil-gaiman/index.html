@@ -11,27 +11,6 @@
       gtag('config', 'UA-399579-23');
     </script>
 
-    <script>
-    /**
-    * Função que acompanha um clique em um link externo no Analytics.
-    * Essa função processa uma string de URL válida como um argumento e usa essa string de URL
-    * como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
-    * usando 'navigator.sendBeacon' em um navegador compatível.
-    */
-    var trackOutboundLink = function(url) {
-      if (ga.q || document.location.hostname.indexOf("crisdias.link") == -1) {
-        // Google Analytics is blocked OR development environ
-        document.location = url;
-      } else {
-        ga("send", "event", "outbound", "click", url, {"hitCallback":
-          function () {
-            document.location = url;
-          }
-        });
-      }
-    }
-    </script>
-
     <!-- -->
 
     <meta charset="utf-8">
@@ -251,7 +230,7 @@ function lunr_search(term) {
                         <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=http://192.168.0.109:4000/oceano-no-fim-do-caminho-neil-gaiman/&media=http://192.168.0.109:4000//assets/images/o-oceano-no-fim-do-caminho.jpg&description=O Oceano no fim do Caminho, Neil Gaiman- Neil Gaiman conta a história de um garoto de 7 anos que na verdade é ele mesmo, Neil Himself, ele assume a quem perguntar. Pra..."></a>
                     </span>
                     
-                        <a href="https://amzn.to/2LoIXZh" onclick="trackOutboundLink('https://amzn.to/2LoIXZh'); return false;">
+                        <a href="https://amzn.to/2LoIXZh">
                     
                     <img class="card-img-top mb-2" src="http://192.168.0.109:4000/assets/images/o-oceano-no-fim-do-caminho.jpg" alt="O Oceano no fim do Caminho, Neil Gaiman"> 
                     
@@ -277,7 +256,7 @@ function lunr_search(term) {
 
                     
                     
-                        <p><a href="https://amzn.to/2LoIXZh" class="btn btn-gray d-block font-weight-bold" onclick="trackOutboundLink('https://amzn.to/2LoIXZh'); return false;">
+                        <p><a href="https://amzn.to/2LoIXZh" class="btn btn-gray d-block font-weight-bold">
                             
                                 Compre
                             

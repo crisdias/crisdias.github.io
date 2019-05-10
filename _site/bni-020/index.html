@@ -11,27 +11,6 @@
       gtag('config', 'UA-399579-23');
     </script>
 
-    <script>
-    /**
-    * Função que acompanha um clique em um link externo no Analytics.
-    * Essa função processa uma string de URL válida como um argumento e usa essa string de URL
-    * como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
-    * usando 'navigator.sendBeacon' em um navegador compatível.
-    */
-    var trackOutboundLink = function(url) {
-      if (ga.q || document.location.hostname.indexOf("crisdias.link") == -1) {
-        // Google Analytics is blocked OR development environ
-        document.location = url;
-      } else {
-        ga("send", "event", "outbound", "click", url, {"hitCallback":
-          function () {
-            document.location = url;
-          }
-        });
-      }
-    }
-    </script>
-
     <!-- -->
 
     <meta charset="utf-8">
@@ -251,7 +230,7 @@ function lunr_search(term) {
                         <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=http://192.168.0.109:4000/bni-020/&media=http://192.168.0.109:4000//assets/images/bni019.jpg&description=Teatro da Mente — Boa Noite Internet 19- Star Wars é o melhor filme do mundo, exceto quando estou vendo Star Wars. Como é que a nossa mente preenche esses espaços vazios para..."></a>
                     </span>
                     
-                        <a href="https://www.boanoiteinternet.com.br/2019/05/05/teatro-da-mente/" onclick="trackOutboundLink('https://www.boanoiteinternet.com.br/2019/05/05/teatro-da-mente/'); return false;">
+                        <a href="https://www.boanoiteinternet.com.br/2019/05/05/teatro-da-mente/">
                     
                     <img class="card-img-top mb-2" src="http://192.168.0.109:4000/assets/images/bni019.jpg" alt="Teatro da Mente — Boa Noite Internet 19"> 
                     
@@ -274,7 +253,7 @@ function lunr_search(term) {
 
                     
                     
-                        <p><a href="https://www.boanoiteinternet.com.br/2019/05/05/teatro-da-mente/" class="btn btn-gray d-block font-weight-bold" onclick="trackOutboundLink('https://www.boanoiteinternet.com.br/2019/05/05/teatro-da-mente/'); return false;">
+                        <p><a href="https://www.boanoiteinternet.com.br/2019/05/05/teatro-da-mente/" class="btn btn-gray d-block font-weight-bold">
                             
                                 Ouça
                             

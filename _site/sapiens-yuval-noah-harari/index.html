@@ -11,27 +11,6 @@
       gtag('config', 'UA-399579-23');
     </script>
 
-    <script>
-    /**
-    * Função que acompanha um clique em um link externo no Analytics.
-    * Essa função processa uma string de URL válida como um argumento e usa essa string de URL
-    * como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
-    * usando 'navigator.sendBeacon' em um navegador compatível.
-    */
-    var trackOutboundLink = function(url) {
-      if (ga.q || document.location.hostname.indexOf("crisdias.link") == -1) {
-        // Google Analytics is blocked OR development environ
-        document.location = url;
-      } else {
-        ga("send", "event", "outbound", "click", url, {"hitCallback":
-          function () {
-            document.location = url;
-          }
-        });
-      }
-    }
-    </script>
-
     <!-- -->
 
     <meta charset="utf-8">
@@ -251,7 +230,7 @@ function lunr_search(term) {
                         <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=http://192.168.0.109:4000/sapiens-yuval-noah-harari/&media=http://192.168.0.109:4000/https://images-na.ssl-images-amazon.com/images/I/51fuvXO6wvL._SX346_BO1,204,203,200_.jpg&description=Sapiens, Yuval Noah Harari- Tem livro que muda a nossa vida e a maneira de ver o mundo. Sapiens - Uma Breve História da Humanidade, do professor israelense Yuval..."></a>
                     </span>
                     
-                        <a href="https://amzn.to/2VXvJXT" onclick="trackOutboundLink('https://amzn.to/2VXvJXT'); return false;">
+                        <a href="https://amzn.to/2VXvJXT">
                     
                     <img class="card-img-top mb-2" src="https://images-na.ssl-images-amazon.com/images/I/51fuvXO6wvL._SX346_BO1,204,203,200_.jpg" alt="Sapiens, Yuval Noah Harari"> 
                     
@@ -279,7 +258,7 @@ function lunr_search(term) {
 
                     
                     
-                        <p><a href="https://amzn.to/2VXvJXT" class="btn btn-gray d-block font-weight-bold" onclick="trackOutboundLink('https://amzn.to/2VXvJXT'); return false;">
+                        <p><a href="https://amzn.to/2VXvJXT" class="btn btn-gray d-block font-weight-bold">
                             
                                 Compre
                             
