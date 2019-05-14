@@ -4,7 +4,7 @@ metadate: "hide"
 categories: [ podcast, entrevista, comunicação, marketing, agência ]
 image: "/assets/images/o/ot-podcast-crisdias.jpg"
 visit: "https://open.spotify.com/episode/65qrCXZ80sqvZfEwsBLXP3"
-short: "Parece que 2019 é o ano do podcast no Brasil…"
+short: "Parece que 2019 é o ano do podcast no Brasil… Dei essa entrevista para o novo podcast da Mutato, sobre o mercado de podcasts e como ser criativo nesse meio."
 verb: 'Ouça'
 date: 2019-05-08 12:00
 ---

@@ -4,7 +4,7 @@ metadate: "hide"
 categories: [ podcast, entrevista, Boa Noite Internet ]
 image: "/assets/images/p/pedir-ajuda.jpg"
 visit: "https://www.boanoiteinternet.com.br/2019/05/12/pedir-ajuda/"
-short: "Pedir ajuda é dífícil, mas é necessário"
+short: "Pedir ajuda é dífícil, mas é necessário. Pra entender isso fui conversar com o Pedro de Figueiredo, do MEMOH."
 verb: 'Ouça'
 date: 2019-05-12 20:00
 ---

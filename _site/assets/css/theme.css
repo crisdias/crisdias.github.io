@@ -513,8 +513,8 @@ a.next {
 
 /* cris */
 .post-short {
-  font-style: oblique;
-  color: #999;
+  /* font-style: oblique; */
+  color: #666;
 }
 
 .card-cat {

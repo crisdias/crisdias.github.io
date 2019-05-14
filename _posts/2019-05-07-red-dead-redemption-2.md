@@ -5,7 +5,7 @@ categories: [ game, mundinho, história envolvente ]
 image: "https://images-na.ssl-images-amazon.com/images/I/51adi9n3FFL._SX358_BO1,204,203,200_.jpg"
 visit: "https://amzn.to/2Yfzx3R"
 verb: 'Compre'
-short: Melhor jogo do ano e talvez da vida
+short: O melhor jogo de 2018, e olha que teve Spider-Man. Se você gosta de "jogo de mundinho" esse jogo é pra você.
 ---
 
 Antes de falar de **Red Dead Redemption 2** eu preciso avisar que eu adoro jogos de "mundinho", que é o nome carinhoso pra "RPG de mundo aberto com história envolvente". O tipo de jogo que quando eu começo a jogar eu penso "eu nunca mais vou parar de jogar isso". Por mim eu só jogava esse tipo de jogo e normalmente é só isso que eu jogo mesmo.
