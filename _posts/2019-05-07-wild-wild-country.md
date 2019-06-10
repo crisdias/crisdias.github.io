@@ -6,8 +6,8 @@ image: "/assets/images/w/ww-country.jpg"
 visit: "https://www.netflix.com/br/title/80145240"
 verb: 'Assista'
 short: A realidade é sempre melhor do que a ficção. <em>Wild Wild Country</em> tem pessoas reais tomando decisões reais, por mais absurdas ou idiotas que elas possam ser. Tudo isso contado usando imagens reais da época.
-permalink: /wwc/
 permalink: /wwc
+permalink: /wwc/
 ---
 
 A sinopse de **Wild Wild Country** vai falar que a série documental acompanha a história da chegada bombástica de uma comunidade "bicho grilo new age oriental" no interior do Oregon, nos anos 1980.
