@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<section class="bg-gray200 pt-5 pb-5">    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                
+                <article class="card">
+                    
+                 {% if page.image %} 
+                    <span class="pinme">
+                        <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url={{site.url}}{{site.baseurl}}{{page.url}}&media={{site.url}}{{site.baseurl}}/{{page.image}}&description={{ page.title }}- {{ page.content | strip_html | truncatewords:25 }}"></a>
+                    </span>
+                    {% if page.visit %}
+                        <a href="{{page.visit}}">
+                    {% endif %}
+                    <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                    {% if page.visit %}
+                        </a>
+                    {% endif %}
+                {% endif %}
+                    
+                <div class="card-body">
+                    
+                    <h1 class="display-4">
+                        {{page.title}} 
+                    </h1>                    
+                     
+                    <small class="text-muted d-block mb-3">
+                        {% unless page.metadate == "hide" %} 
+                            {{ page.date | date: '%d/%m/%Y' }} 
+                        {% endunless %}
+                        {% if page.author %}
+                            , by {{page.author | capitalize}} 
+                        {% endif %}
+                    </small>                    
+                    
+                    {{ content }}
+                    
+                    {% if page.visit %}
+                        <p><a href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold">
+                            {% if page.verb %}
+                                {{ page.verb }}
+                            {% else %}
+                                Visit
+                            {% endif %}
+                            <i class="fas fa-external-link-alt"></i></a>
+                        </p>
+                    {% endif %}
+                    
+                    {% for category in page.categories %}
+                      <a class="btn btn-sm btn-primary mt-2" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
+                        #{{ category | downcase }}
+                      </a>
+                    {% endfor %}
+
+
+                    <section class="promove">
+                        <h2>Gosta de podcasts?</h2>
+
+                        <p>Conheça o <strong>Boa Noite Internet</strong>, o podcast que explica o mundo através de histórias interessantes. Ele é apresentado pelo Cris Dias e sai todo domingo 20h. Você pode ouvir no seu app favorito de podcasts (incluindo o <a href="https://open.spotify.com/show/4jZO3v9oZO88CjYiLKmFZA?si=wDmq1F9rQBmmIdGbOOF67w" title="Spotify">Spotify</a> e <a href="https://www.deezer.com/br/show/342882" title="Deezer">Deezer</a>) ou direto em <a href="https://www.boanoiteinternet.com.br/">www.boanoiteinternet.com.br</a>.
+                    </section>
+                    
+                    
+                </div>  
+                    
+                </article>
+
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
