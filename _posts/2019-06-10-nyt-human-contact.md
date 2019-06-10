@@ -2,7 +2,7 @@
 title:  "Human Contact Is Now a Luxury Good - The New York Times"
 metadate: "hide"
 categories: [ artigo ]
-image: "/assets/images/n/nyt-human-contact.jpg"
+image: "/assets/images/n/nyt-human-contact.webp"
 verb: "Leia"
 finalurl: "https://www.nytimes.com/2019/03/23/sunday-review/human-contact-luxury-screens.html"
 visit: "https://nyti.ms/2XyEq8t"
