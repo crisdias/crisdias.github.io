@@ -7,6 +7,7 @@ visit: "https://amzn.to/2VXvJXT"
 finalurl: "https://amzn.to/2VXvJXT"
 verb: 'Compre'
 permalink: /sapiens
+permalink: /sapiens/
 short: Certos livros mudam a nossa vida, esse é o maior deles. <em>Sapiens</em> explica o mundo e a humanidade sem fazer você se sentir um idiota.
 ---
 Tem livro que muda a nossa vida e a maneira de ver o mundo. *Sapiens - Uma Breve História da Humanidade*, do professor israelense Yuval Noah Harari é um desses. Se não existir a Igreja Yuviana eu quero fundar.
