@@ -9,6 +9,6 @@ visit: "http://bit.ly/2WHEXbX"
 short: "Com 2 minutos e 30 segundos Good Omens o já manda que Deus é mulher e Adão e Eva eram negros. Definitivamente o meu tipo de série."
 permalink: /good-omens
 permalink: /good-omens/
-date: 2019-06-09 20:00
+date: 2019-06-08 20:00
 ---
 Com 2 minutos e 30 segundos Good Omens o já manda que Deus é mulher e Adão e Eva eram negros. Definitivamente o meu tipo de série.
