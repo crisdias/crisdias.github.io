@@ -9,6 +9,6 @@ visit: "https://nyti.ms/2XyEq8t"
 short: "Contato humano é para os ricos. Pobres falam com máquinas."
 permalink: /contato-luxo
 permalink: /contato-luxo/
-date: 2019-06-09 10:00
+date: 2019-06-11 09:00
 ---
 Contato humano é para os ricos. Pobres falam com máquinas.

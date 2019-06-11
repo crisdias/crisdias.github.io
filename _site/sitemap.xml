@@ -49,12 +49,12 @@
 <lastmod>2019-06-08T20:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/contato-luxo/</loc>
-<lastmod>2019-06-09T10:00:00-03:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/bni-24</loc>
 <lastmod>2019-06-09T20:00:00-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/contato-luxo/</loc>
+<lastmod>2019-06-11T09:00:00-03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/jbl-duet/</loc>
