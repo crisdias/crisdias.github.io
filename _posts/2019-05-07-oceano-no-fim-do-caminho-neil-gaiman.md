@@ -6,6 +6,7 @@ image: "/assets/images/o-oceano-no-fim-do-caminho.jpg"
 visit: "https://amzn.to/2LoIXZh"
 verb: 'Compre'
 short: "Um livro fofo. Não é o mais famoso do Gaiman, mas é o meu preferido dele."
+date: 2019-05-27 21:00
 ---
 
 Neil Gaiman conta a história de um garoto de 7 anos que na verdade é ele mesmo, Neil Himself, ele assume a quem perguntar.

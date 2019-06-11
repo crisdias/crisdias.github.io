@@ -6,7 +6,7 @@ image: "/assets/images/j/jorge-drexler.png"
 visit: "https://www.youtube.com/watch?v=qn6rgisZm1M"
 verb: 'Ouça'
 short: Sempre ouvi falar desse nome mas nunca parei pra ouvir. Parece que eu estava esperando o momento certo da vida pra isso.
-date: 2019-05-08 22:00
+date: 2019-05-22 20:00
 permalink: /npr-drexler
 permalink: /npr-drexler/
 ---

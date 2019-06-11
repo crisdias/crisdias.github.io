@@ -89,7 +89,7 @@ footer.footer {
 }
 .card {
 	border: 0;
-    transition:ease .1s;
+  transition:ease .1s;
 }
 .card-pin:hover .overlay {
 	opacity:.5;
@@ -525,3 +525,27 @@ a.next {
 .promove h2 {
   margin-top: 2em;
 }
+
+/*
+@media (min-width: 576px) {
+.card-columns {
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1; 
+    max-width: 700px;
+
+  }
+
+  .container-fluid {
+    max-width: 700px;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+
+}
+*/
