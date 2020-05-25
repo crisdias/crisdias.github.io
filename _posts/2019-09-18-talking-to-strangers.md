@@ -1,5 +1,5 @@
 ---
-title:  "Talking to Strangers — "
+title:  "Talking to Strangers"
 metadate: "hide"
 categories: [ livro, não-ficção, Malcolm Gladwell ]
 image: "/assets/images/t/talking-to-strangers.jpg"

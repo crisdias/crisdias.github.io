@@ -89,6 +89,18 @@
 <lastmod>2019-09-18T14:00:00-03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/contos-do-loop/</loc>
+<lastmod>2020-05-20T14:00:00-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/paterson-filme/</loc>
+<lastmod>2020-05-21T14:00:00-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/quietos-susan-cain/</loc>
+<lastmod>2020-05-25T14:00:00-03:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -105,6 +117,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/_pages/about.html</loc>
-<lastmod>2019-05-08T10:26:14-03:00</lastmod>
+<lastmod>2019-05-08T07:04:18-03:00</lastmod>
 </url>
 </urlset>
