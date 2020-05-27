@@ -1,7 +1,7 @@
 ---
 title:  "Robô aspirador de pó Eufy Robovac 11S"
 metadate: "hide"
-categories: [ gadgets ]
+categories: [ gadget ]
 image: "/assets/images/e/eufy.jpg"
 verb: "Compre"
 finalurl: "https://amzn.to/3eg77yO"
