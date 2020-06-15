@@ -73,6 +73,14 @@
 <lastmod>2020-05-25T14:00:00-03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/haruki-murakami-corrida/</loc>
+<lastmod>2020-06-15T11:00:00-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/kindle/</loc>
+<lastmod>2020-06-15T12:00:00-03:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/haruki-murakami-1q84/</loc>
 <lastmod>2020-06-15T13:00:00-03:00</lastmod>
 </url>
@@ -87,6 +95,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/privacy-policy.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/_pages/about.html</loc>
