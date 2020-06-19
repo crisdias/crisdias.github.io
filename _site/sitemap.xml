@@ -85,6 +85,10 @@
 <lastmod>2020-06-15T13:00:00-03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/minecraft-dungeons/</loc>
+<lastmod>2020-06-19T02:00:00-03:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -101,6 +105,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/_pages/about.html</loc>
-<lastmod>2019-05-08T07:04:18-03:00</lastmod>
+<lastmod>2020-06-03T21:16:37-03:00</lastmod>
 </url>
 </urlset>
