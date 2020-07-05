@@ -16,3 +16,13 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
 end
+
+gem 'gem-wrappers'	, '>= 1.4.0'
+gem 'bigdecimal'	, '>= 2.0.0'
+gem 'bindex'		, '>= 0.8.1'
+gem 'bootsnap'		, '>= 1.4.6'
+gem 'byebug'		, '>= 11.1.3'
+gem 'date'			, '>= 3.0.0'
+gem 'etc'			, '>= 1.1.0'
+gem 'ffi'			, '>= 1.13.1'
+gem 'gdbm'			, '>= 2.1.0'
