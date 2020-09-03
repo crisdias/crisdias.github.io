@@ -9,6 +9,6 @@ visit: "https://amzn.to/3jD5dLk"
 short: "Uma história de uma delicadeza como eu nunca vi. Arthur Less está na crise da meia idade e resolve dar a volta ao mundo para evitar ir a um casamento."
 permalink: /arthur-less
 permalink: /arthur-less/
-date: 2020-09-03 17:00
+date: 2020-09-03 00:00
 ---
 Uma história de uma delicadeza como eu nunca vi. Arthur Less está na crise da meia idade e resolve dar a volta ao mundo para evitar ir a um casamento.
