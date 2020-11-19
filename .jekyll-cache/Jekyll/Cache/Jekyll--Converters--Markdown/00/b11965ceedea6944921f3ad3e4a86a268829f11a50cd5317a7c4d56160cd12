@@ -1,4 +1,4 @@
-I"��<section class="mt-4 mb-5">
+I"d�<section class="mt-4 mb-5">
     
     <div class="container mb-4">
         <h1 class="font-weight-bold title"><img src="assets/images/crisdicas.jpg" /></h1>    
@@ -113,6 +113,10 @@
         
           
         
+          
+        
+          
+        
       
     
     </ul>    
@@ -132,13 +136,13 @@
         
      
     
-        <a href="https://amzn.to/3oXTZo8" class="post-visit">
+        <a href="https://amzn.to/2ITcTfR" class="post-visit">
          
-        <img class="card-img" src="http://localhost:4000/assets/images/d/dieta-da-informacao.jpg" alt="A Dieta da Informação, Clay Johnson" />             
+        <img class="card-img" src="http://localhost:4000/assets/images/s/sapiens-hq.jpg" alt="Sapiens (em quadrinhos), O nascimento da humanidade" />             
         
             <div class="notraco">
-                <h2 class="card-title title"> A Dieta da Informação, Clay Johnson</h2>
-                <p class="post-short"><p>“Quem quer ouvir a verdade quando pode ouvir que está certo?” Clay Johson lançou essas palavras em 2012, anos antes das fake news, mas elas seguem verdadeiras. O livro já foi tema de um Boa Noite Internet com o mesmo título.</p>
+                <h2 class="card-title title"> Sapiens (em quadrinhos), O nascimento da humanidade</h2>
+                <p class="post-short"><p>Quando li Sapiens anos atrás virei o amigo chato que só fala de uma coisa: que todo mundo devia ler esse livro para entender melhor o mundo em que vivemos. Agora a visão do professor de história Yuval Noah Harari chega na versão em quadrinhos.</p>
 </p>
                 <p>
                     
@@ -146,13 +150,17 @@
                         #não-ficção
                       </a>
                     
-                      <a class="card-cat" href="/categories.html#sociedade">
-                        #sociedade
+                      <a class="card-cat" href="/categories.html#sapiens">
+                        #sapiens
+                      </a>
+                    
+                      <a class="card-cat" href="/categories.html#harari">
+                        #harari
                       </a>
                     
                 </p>
                 <div class="more">                
-                    <a href="https://amzn.to/3oXTZo8" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
+                    <a href="https://amzn.to/2ITcTfR" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
                 </div>  
             </div>
             
@@ -195,6 +203,45 @@
    
 </div>
               
+            
+        
+            <div class="card card-pin  raco">
+        
+    
+        
+     
+    
+        <a href="https://amzn.to/3oXTZo8" class="post-visit">
+         
+        <img class="card-img" src="http://localhost:4000/assets/images/d/dieta-da-informacao.jpg" alt="A Dieta da Informação, Clay Johnson" />             
+        
+            <div class="notraco">
+                <h2 class="card-title title"> A Dieta da Informação, Clay Johnson</h2>
+                <p class="post-short"><p>“Quem quer ouvir a verdade quando pode ouvir que está certo?” Clay Johson lançou essas palavras em 2012, anos antes das fake news, mas elas seguem verdadeiras. O livro já foi tema de um Boa Noite Internet com o mesmo título.</p>
+</p>
+                <p>
+                    
+                      <a class="card-cat" href="/categories.html#não-ficção">
+                        #não-ficção
+                      </a>
+                    
+                      <a class="card-cat" href="/categories.html#sociedade">
+                        #sociedade
+                      </a>
+                    
+                </p>
+                <div class="more">                
+                    <a href="https://amzn.to/3oXTZo8" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
+                </div>  
+            </div>
+            
+         </a>
+    
+    
+        
+   
+</div>
+
             
         
             <div class="card card-pin  raco">
@@ -1002,43 +1049,6 @@
                 </p>
                 <div class="more">                
                     <a href="http://bit.ly/2YvOGyI" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
-                </div>  
-            </div>
-            
-         </a>
-    
-    
-        
-   
-</div>
-
-            
-        
-            <div class="card card-pin  raco">
-        
-    
-        
-     
-    
-        <a href="http://bit.ly/2IQ1iLG" class="post-visit">
-         
-        <img class="card-img" src="http://localhost:4000/assets/images/r/radio-nacional.jpg" alt="Por que podcasts brasileiros são ~piores~ que os americanos?" />             
-        
-            <div class="notraco">
-                <h2 class="card-title title">
-	📰
- Por que podcasts brasileiros são ~piores~ que os americanos?</h2>
-                <p class="post-short"><p>Escrevi um textinho pra contar que fazer podcasts pode parecer simples e coisa de amadores, mas não é.</p>
-</p>
-                <p>
-                    
-                      <a class="card-cat" href="/categories.html#artigo">
-                        #artigo
-                      </a>
-                    
-                </p>
-                <div class="more">                
-                    <a href="http://bit.ly/2IQ1iLG" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
                 </div>  
             </div>
             

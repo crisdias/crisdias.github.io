@@ -1,4 +1,4 @@
-I"�Y<section class="mt-4 mb-5">
+I"c^<section class="mt-4 mb-5">
     
     <div class="container mb-4">
         <h1 class="font-weight-bold title"><img src="assets/images/crisdicas.jpg" /></h1>    
@@ -113,6 +113,10 @@
         
           
         
+          
+        
+          
+        
       
     
     </ul>    
@@ -132,15 +136,15 @@
         
      
     
-        <a href="http://bit.ly/2wTJSqR" class="post-visit">
+        <a href="http://bit.ly/2IQ1iLG" class="post-visit">
          
-        <img class="card-img" src="http://localhost:4000/assets/images/t/time-in-your-head.png" alt="Pare de passar tempo dentro da sua cabeça" />             
+        <img class="card-img" src="http://localhost:4000/assets/images/r/radio-nacional.jpg" alt="Por que podcasts brasileiros são ~piores~ que os americanos?" />             
         
             <div class="notraco">
                 <h2 class="card-title title">
 	📰
- Pare de passar tempo dentro da sua cabeça</h2>
-                <p class="post-short"><p>Provavelmente o recado mais importante que eu preciso mandar pra mim mesmo, todo dia.</p>
+ Por que podcasts brasileiros são ~piores~ que os americanos?</h2>
+                <p class="post-short"><p>Escrevi um textinho pra contar que fazer podcasts pode parecer simples e coisa de amadores, mas não é.</p>
 </p>
                 <p>
                     
@@ -150,7 +154,7 @@
                     
                 </p>
                 <div class="more">                
-                    <a href="http://bit.ly/2wTJSqR" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
+                    <a href="http://bit.ly/2IQ1iLG" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
                 </div>  
             </div>
             
@@ -193,6 +197,43 @@
    
 </div>
               
+            
+        
+            <div class="card card-pin  raco">
+        
+    
+        
+     
+    
+        <a href="http://bit.ly/2wTJSqR" class="post-visit">
+         
+        <img class="card-img" src="http://localhost:4000/assets/images/t/time-in-your-head.png" alt="Pare de passar tempo dentro da sua cabeça" />             
+        
+            <div class="notraco">
+                <h2 class="card-title title">
+	📰
+ Pare de passar tempo dentro da sua cabeça</h2>
+                <p class="post-short"><p>Provavelmente o recado mais importante que eu preciso mandar pra mim mesmo, todo dia.</p>
+</p>
+                <p>
+                    
+                      <a class="card-cat" href="/categories.html#artigo">
+                        #artigo
+                      </a>
+                    
+                </p>
+                <div class="more">                
+                    <a href="http://bit.ly/2wTJSqR" class="d-block p-3"><i class="fa fa-arrow-circle-right text-muted" aria-hidden="true"></i></a>
+                </div>  
+            </div>
+            
+         </a>
+    
+    
+        
+   
+</div>
+
             
         
             <div class="card card-pin  raco">
