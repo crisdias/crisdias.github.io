@@ -2,18 +2,31 @@
 <html lang="pt-br">
 <head>
     <meta http-equiv = "refresh" content = "0; url = https://www.netflix.com/br/title/80145240" />
-    <!-- This goes before </head> closing tag, Google Analytics can be placed here -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-399579-23"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.google-analytics.com/analytics.js?id=UA-399579-23"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-399579-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-399579-23');
-    </script>
+  gtag('config', 'UA-399579-23');
+</script>
 
-<!-- --> 
+<script>
+/**
+* Função que acompanha um clique em um link externo no Google Analytics.
+* Essa função processa uma string de URL válida como um argumento e usa essa string de URL
+* como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
+* usando 'navigator.sendBeacon' em um navegador compatível.
+*/
+var captureOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
 </head>
     
 <body>
