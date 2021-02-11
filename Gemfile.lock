@@ -16,9 +16,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     etc (1.2.0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     ffi (1.14.2)
-    ffi (1.14.2-x64-mingw32)
     forwardable-extended (2.6.0)
     gdbm (2.1.0)
     gem-wrappers (1.4.0)
@@ -72,15 +70,12 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
-  x64-mingw32
 
 DEPENDENCIES
   bigdecimal (>= 2.0.0)
@@ -98,7 +93,7 @@ DEPENDENCIES
   jekyll-sitemap
 
 RUBY VERSION
-   ruby 2.5.3p105
+   ruby 2.5.1p57
 
 BUNDLED WITH
-   2.1.4
+   1.16.1
