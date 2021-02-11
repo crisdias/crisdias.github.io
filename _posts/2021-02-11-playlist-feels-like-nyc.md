@@ -9,4 +9,4 @@ short: "Mais de 9 horas de músicas de Natal que não vão deixar com você com 
 date: 2021-02-11 02:00
 ---
 
-A playlist que eu ouvia quando morava na Grande NYC em 2001, direto do meu tocador de CD-mp3, citada no Braincast "2001: o ano que nunca acabou".
+A playlist que eu ouvia quando morava na Grande NYC em 2001, direto do meu tocador de CD-mp3, citada no Braincast "2001: O ano que nunca acabou".
