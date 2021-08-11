@@ -1,7 +1,7 @@
 ---
 title: A Dieta da Informação, Clay Johnson
 metadate: hide
-categories: [ não-ficção, sociedade ]
+categories: [ livro, não-ficção, sociedade ]
 image: "/assets/images/d/dieta-da-informacao.jpg"
 visit: "https://amzn.to/3oXTZo8"
 verb: 'Leia'

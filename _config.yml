@@ -47,3 +47,4 @@ exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffe
 
 # Categories
 mastercats: ['tv','game','filme','livro','podcast', 'música','artigo']
+
