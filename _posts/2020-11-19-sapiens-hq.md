@@ -2,7 +2,7 @@
 title: Sapiens (em quadrinhos), O nascimento da humanidade 
 metadate: hide
 categories: [ livro, não-ficção, sapiens, harari ]
-image: "/assets/images/s/sapiens-hq.gif"
+image: "https://res.cloudinary.com/netcris/image/upload/c_scale/crisdicas/s/sapiens-hq.gif"
 visit: "https://amzn.to/2ITcTfR"
 verb: 'Leia'
 short: "O livro que explodiu minha cabeça, agora em versao HQ."
