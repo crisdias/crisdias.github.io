@@ -4,9 +4,9 @@
         <a href="{{post.visit}}" class="post-visit" onclick="captureOutboundLink('{{post.visit}}');">
 
         {% if post.cloudinary contains "." %}
-        <img class="card-img cld-responsive" data-src="https://res.cloudinary.com/netcris/image/upload/w_auto,c_scale/crisdicas/{{ post.cloudinary }}" alt="{{ post.title }}" src="https://res.cloudinary.com/netcris/image/upload/e_grayscale/c_scale,e_grayscale,w_50/crisdicas/{{ post.cloudinary }}">
+        <img class="card-img cld-responsive" data-src="https://res.cloudinary.com/netcris/image/upload/w_auto,c_scale/crisdicas/{{ post.cloudinary }}" alt="{{ post.title }}" src="{{ "/assets/images/vazio.png" | absolute_url }}">
         {% else %} 
-        <img class="card-img cld-responsive" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | replace: "/assets/images/" , "https://res.cloudinary.com/netcris/image/upload/w_auto,c_scale/crisdicas/" }}{% endif %}" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | replace: "/assets/images/" , "https://res.cloudinary.com/netcris/image/upload/c_scale,e_grayscale,w_50/crisdicas/" }}{% endif %}" alt="{{ post.title }}"> 
+        <img class="card-img cld-responsive" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | replace: "/assets/images/" , "https://res.cloudinary.com/netcris/image/upload/w_auto,c_scale/crisdicas/" }}{% endif %}" src="{{ "/assets/images/vazio.png" | absolute_url }}"> 
         {% endif %} 
          
         
