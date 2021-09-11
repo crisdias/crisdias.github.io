@@ -16,13 +16,12 @@ description: "As melhores dicas e links de livros, séries, podcasts e bugiganga
 <div class="container-fluid">
     
     <div class="card-columns">    
-        {% assign jafoibni = false %}
         {% for post in paginator.posts %}
-            {% include card-post.html %}
-            {% if jafoibni == false %}
-              {% include bni_home.html %}
-              {% assign jafoibni = true %}
-            {% endif %}
+          {% capture _ %}{% increment jafoibni %}{% endcapture %}
+          {% include card-post.html %}
+          {% if jafoibni == 2 %}
+            {% include bni_home.html %}
+          {% endif %}
         {% endfor %} 
     </div>
 

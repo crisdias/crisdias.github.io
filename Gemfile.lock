@@ -76,6 +76,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-17
+  x86_64-linux
 
 DEPENDENCIES
   bigdecimal (>= 2.0.0)
@@ -93,7 +94,7 @@ DEPENDENCIES
   jekyll-sitemap
 
 RUBY VERSION
-   ruby 2.7.4p191
+   ruby 2.7.0p0
 
 BUNDLED WITH
    2.2.25
