@@ -1,1 +1,1 @@
-bundle exec jekyll s --livereload
+bundle exec jekyll s
