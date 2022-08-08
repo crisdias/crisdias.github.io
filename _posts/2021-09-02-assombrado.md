@@ -1,7 +1,7 @@
 ---
 title: "O mundo assombrado pelos demônios"
 metadate: "hide"
-categories: [ livro ]
+categories: [ livro, não-ficção ]
 cloudinary: "a/assombrado.jpg"
 visit: "https://amzn.to/3zJKeis"
 finalurl: "https://amzn.to/3zJKeis"
