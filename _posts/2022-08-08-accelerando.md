@@ -9,6 +9,6 @@ verb: 'Leia'
 permalink: /accelerando
 permalink: /accelerando/
 short: "O livro que explodiu a minha cabeça com sua visão de singularidade."
-date: 2022-08-08 01:00
+date: 2022-08-07 01:00
 ---
 O livro que explodiu a minha cabeça com sua visão de singularidade.

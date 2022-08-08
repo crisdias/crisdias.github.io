@@ -9,6 +9,6 @@ verb: 'Leia'
 permalink: /rethinking-first-novel
 permalink: /rethinking-first-novel/
 short: "Artigo do escritor indiano-americano fala da sua carreira e o que o levou a reescrever seu primeiro romance de sucesso, <em>Um pai obediente</em>."
-date: 2022-08-08 03:00
+date: 2022-08-07 03:00
 ---
 Artigo do escritor indiano-americano fala da sua carreira e o que o levou a reescrever seu primeiro romance de sucesso, <em>Um pai obediente</em>.

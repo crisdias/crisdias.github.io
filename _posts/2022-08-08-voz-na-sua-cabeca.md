@@ -9,6 +9,6 @@ verb: 'Leia'
 permalink: /voz-na-sua-cabeca
 permalink: /voz-na-sua-cabeca/
 short: "De onde vem a <em>conversinha</em> que temos dentro da nossa cabeça — e como lidar com ela."
-date: 2022-08-08 02:00
+date: 2022-08-07 02:00
 ---
 De onde vem a <em>conversinha</em> que temos dentro da nossa cabeça — e como lidar com ela.

@@ -9,6 +9,6 @@ verb: 'Leia'
 permalink: /atencao-plena
 permalink: /atencao-plena/
 short: "O guia fundamental para colocar a meditação de atenção plena — mindfulness — na sua rotina. Inclui arquivos mp3 com meditações guiadas."
-date: 2022-08-08 04:00
+date: 2022-08-07 04:00
 ---
 O guia fundamental para colocar a meditação de atenção plena — mindfulness — na sua rotina. Inclui arquivos mp3 com meditações guiadas.
