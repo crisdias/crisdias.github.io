@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-08-08-atencao-plena.md",
+            "file": "_posts/2022-08-15-f451.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-08-atencao-plena.md",
+                "file": "_posts/2022-08-15-f451.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-08-atencao-plena.md",
+                "file": "_posts/2022-08-15-f451.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-08-08-atencao-plena.md"
+                "file": "_posts/2022-08-15-f451.md"
               }
             }
           }
@@ -130,10 +130,11 @@
   },
   "active": "f156d28b375431f4",
   "lastOpenFiles": [
+    "_posts/2022-08-08-voz-na-sua-cabeca.md",
+    "_posts/2022-08-08-first-novel.md",
+    "_posts/2022-08-08-atencao-plena.md",
     "_posts/2022-08-08-accelerando.md",
     "_posts/2022-07-18-braincast-463.md",
-    "_posts/2022-08-08-first-novel.md",
-    "_posts/2022-08-08-voz-na-sua-cabeca 1.md",
-    "_posts/2022-08-08-voz-na-sua-cabeca.md"
+    "_posts/2022-08-15-f451.md"
   ]
 }

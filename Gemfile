@@ -26,3 +26,9 @@ gem 'date'			, '>= 3.0.0'
 gem 'etc'			, '>= 1.1.0'
 gem 'ffi'			, '>= 1.13.1'
 gem 'gdbm'			, '>= 2.1.0'
+
+# cris
+gem 'paapi'
+gem 'babosa'
+gem 'cloudinary'
+gem 'yourls'
