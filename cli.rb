@@ -61,7 +61,7 @@ Cloudinary.config do |config|
 end
 
 sem_artigos = remove_artigos(data['kebab'])
-filename = sem_artigos + '.jpg'
+filename = sem_artigos
 folder = "crisdicas/#{sem_artigos[0]}/"
 
 upload=Cloudinary::Uploader.upload(data['image'], 
@@ -73,7 +73,7 @@ upload=Cloudinary::Uploader.upload(data['image'],
   overwrite: true
   )
 
-data['cloudinary'] = upload['public_id'].gsub('crisdicas/', '')
+data['cloudinary'] = upload['public_id'].gsub('crisdicas/', '') + '.jpg'
 
 ### LIQUID TEMPLATE
 
