@@ -9,7 +9,7 @@ require 'yourls'
 
 require './src/utils.rb'
 
-
+ASIN = '022668170X'
 
 Paapi.configure do |config|
   config.access_key = ENV['AWS_ACCESS_KEY_ID']
@@ -20,7 +20,7 @@ end
 
 client = Paapi::Client.new(market: :br)
 
-gi = client.get_items(item_ids: '022668170X').hash
+gi = client.get_items(item_ids: ASIN).hash
 
 data = {}
 
@@ -44,6 +44,14 @@ data['authors_array'] = list
 data['categorias'] = categorias
 data['kebab'] = data['titulo'].to_s.to_slug.normalize().to_s
 data['datetime'] = Time.now.strftime("%Y-%m-%d %H:%M:%S")
+
+### SHORT URL
+yourls = Yourls::Client.new(ENV['YOURLS_URL'], ENV['YOURLS_TOKEN'])
+data['shorturl'] = yourls.shorten(data['linkto']).short_url
+
+pp data
+exit
+
 
 ### CLOUDINARY UPLOAD 
 
