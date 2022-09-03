@@ -1,0 +1,107 @@
+#!/usr/bin/ruby
+
+require 'rubygems'
+require 'bundler/setup'
+
+require 'paapi'
+require 'pp'
+require 'json'
+require 'rubygems'
+require 'liquid'
+require 'babosa'
+require 'cloudinary'
+require 'yourls'
+require 'thor'
+require 'nokogiri'
+require 'open-uri'
+
+require './src/cli/utils.rb'
+
+require './src/cli/amazon.rb'
+require './src/cli/youtube.rb'
+require './src/cli/link.rb'
+
+require './src/cli/cloudinary.rb'
+require './src/cli/render.rb'
+
+puts "\n" * 15
+
+class CrisCLI < Thor
+  desc "hello NAME", "say hello to NAME"
+  def hello(name)
+    puts "Hello #{name}"
+  end
+  
+  ### AMAZON
+  desc "amazon URL", "Cria post a partir de um LIVRO na Amazon"
+  def amazon(link)
+    # get ASIN from Amazon link
+  
+    if link.include? 'amazon.com'
+      if link =~ /\/dp\//
+        asin = link.split('/dp/')[1].split('/')[0].split('?')[0]
+      # elsif link =~ /\/gp\//
+      #   asin = link.split('/gp/')[1].split('/')[1]
+      else
+        raise "Link inválido"
+      end
+    else
+      asin = link
+    end
+
+    data = amazon_grabber(asin)
+
+    yourls = Yourls::Client.new(ENV['YOURLS_URL'], ENV['YOURLS_TOKEN'], {offset: 0})
+    data['shorturl'] = yourls.shorten(data['linkto']).short_url
+
+    data['cloudinary'] = cloudinary_upload(data)
+    post_render(data)
+
+  end
+
+
+  ### YOUTUBE
+  desc "youtube URL", "Cria post a partir de um vídeo do YouTube"
+  def youtube(link)
+    # get ASIN from Amazon link
+  
+    if (link.include? 'youtube.com') || (link.include? 'youtu.be')
+      # get youtube thumbnail image url from link
+      data = youtube_grabber(link)
+    else
+      raise "Link inválido"
+    end
+
+    yourls = Yourls::Client.new(ENV['YOURLS_URL'], ENV['YOURLS_TOKEN'], {offset: 0})
+    data['shorturl'] = yourls.shorten(data['linkto']).short_url
+
+    data['cloudinary'] = cloudinary_upload(data)
+    post_render(data)
+
+  end
+
+
+  ### LINK
+  desc "link URL", "Cria post a partir de um link"
+  def link(link)
+    data = link_grabber(link)
+
+    yourls = Yourls::Client.new(ENV['YOURLS_URL'], ENV['YOURLS_TOKEN'], {offset: 0})
+    data['shorturl'] = yourls.shorten(data['linkto']).short_url
+
+    data['cloudinary'] = cloudinary_upload(data)
+    post_render(data)
+
+  end
+
+end
+
+
+CrisCLI.start(ARGV)
+exit
+
+
+
+
+
+

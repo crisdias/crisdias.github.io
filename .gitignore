@@ -6,6 +6,8 @@ _plugins/BetterTube/
 .vs/
 .vscode/
 Gemfile.lock
+vendor
 
 
 451.json
+YouTube.html

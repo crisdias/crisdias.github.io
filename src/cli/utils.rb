@@ -6,3 +6,4 @@ def remove_artigos(str)
   end
   return str
 end
+
