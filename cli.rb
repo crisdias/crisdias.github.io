@@ -32,28 +32,28 @@ list = []
 categorias = []
 gi['ItemsResult']['Items'][0]['ItemInfo']['ByLineInfo']['Contributors'].each do |a|
   if a['RoleType'] == 'author'
-    autor = a['Name'].split(', ').reverse.join(' ').squeeze
+    autor = a['Name'].split(', ').reverse.join(' ').strip
     list << autor
     categorias << autor.downcase.to_slug.normalize.to_s
   end
 end
 
 
-data['authors_txt'] = list.join(', ').squeeze
+data['authors_txt'] = list.join(', ').strip
 data['authors_array'] = list
-data['categorias'] = categorias
+data['categorias'] = categorias.join(', ').strip
 data['kebab'] = data['titulo'].to_s.to_slug.normalize().to_s
 data['datetime'] = Time.now.strftime("%Y-%m-%d %H:%M:%S")
 
 ### SHORT URL
-yourls = Yourls::Client.new(ENV['YOURLS_URL'], ENV['YOURLS_TOKEN'])
+yourls = Yourls::Client.new(ENV['YOURLS_URL'], ENV['YOURLS_TOKEN'], {offset: 0})
 data['shorturl'] = yourls.shorten(data['linkto']).short_url
 
-pp data
-exit
 
 
 ### CLOUDINARY UPLOAD 
+
+puts "Uploading image to Cloudinary..."
 
 Cloudinary.config_from_url(ENV['CLOUDINARY_URL'])
 Cloudinary.config do |config|
@@ -77,13 +77,21 @@ data['cloudinary'] = upload['public_id'].gsub('crisdicas/', '')
 
 ### LIQUID TEMPLATE
 
+puts "Rendering Liquid template..."
+
 template = File.read('/Users/crisdias/dev/crisdicas/_templates/post.liquid')
 
 post = Liquid::Template.parse(template) 
 makrdown = post.render(data)            
 puts makrdown
 
+# write markdown to file
 
+puts "Writing markdown file..."
+datetimekebab = Time.now.strftime("%Y-%m-%d")
+saveto = "./_posts/#{datetimekebab}-#{data['kebab']}.md"
+pp saveto
+File.open(saveto, 'w') { |file| file.write(makrdown) }
 
 
 
