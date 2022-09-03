@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "b5f5513003840dc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f156d28b375431f4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2022-08-08-atencao-plena.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "311ccdef852631a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2df21d176aa3c66f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b608e5f6c6392c06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8b33e218da9b6596",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9ff456aad65248bb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5ee338df6e555655",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc8eab447146963f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9544b2c0830aca8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2022-08-08-atencao-plena.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "faecb22672ee4b0f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2022-08-08-atencao-plena.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce597c27579faa26",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2a96b554e7ee1dfd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2022-08-08-atencao-plena.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f156d28b375431f4",
+  "lastOpenFiles": [
+    "_posts/2022-08-08-accelerando.md",
+    "_posts/2022-07-18-braincast-463.md",
+    "_posts/2022-08-08-first-novel.md",
+    "_posts/2022-08-08-voz-na-sua-cabeca 1.md",
+    "_posts/2022-08-08-voz-na-sua-cabeca.md"
+  ]
+}
