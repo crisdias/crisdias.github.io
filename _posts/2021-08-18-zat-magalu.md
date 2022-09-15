@@ -1,7 +1,7 @@
 ---
 title: "Do Zero Ao Topo - Saga Magalu"
 metadate: "hide"
-categories: [ podcast ]
+categories: [ podcast, ampère ]
 cloudinary: "zat-saga.jpg"
 visit: "https://bit.ly/3AR4fUs"
 finalurl: "https://bit.ly/3AR4fUs"

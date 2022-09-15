@@ -1,7 +1,7 @@
 ---
 title: "Pod Position com Cacá Bueno"
 metadate: "hide"
-categories: [ podcast ]
+categories: [ podcast, ampère ]
 cloudinary: "p/podposition.jpg"
 visit: "https://spoti.fi/3aifOsD"
 finalurl: "https://spoti.fi/3aifOsD"
