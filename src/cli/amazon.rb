@@ -1,5 +1,5 @@
 def amazon_grabber(asin)
-    puts "Pegando dados da Amazon..."
+    puts "Pegando dados da Amazon... #{asin}"
     puts ""
 
     Paapi.configure do |config|
