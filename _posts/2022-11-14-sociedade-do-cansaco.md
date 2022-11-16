@@ -3,8 +3,8 @@ title: "Sociedade do cansaço — Byung-Chul Han"
 metadate: "hide"
 categories: [ livro, não-ficção, byung-chul-han ]
 cloudinary: "s/sociedade-do-cansaco.jpg"
-visit: http://go.crisdias.com/7rr
-finalurl: http://go.crisdias.com/7rr
+visit: https://amzn.to/3TFqHsA
+finalurl: https://amzn.to/3TFqHsA
 verb: Leia
 permalink: /sociedade-do-cansaco
 permalink: /sociedade-do-cansaco
