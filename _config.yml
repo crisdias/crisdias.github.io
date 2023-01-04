@@ -8,6 +8,8 @@ avatar: 'assets/images/crisdias_small.jpg'
 email: 'crisdias@crisdias.com'
 url: 'https://crisdias.link'
 
+timezone: Americas/Sao_Paulo
+
 include: ["_pages"]
 permalink: /:title/
 
