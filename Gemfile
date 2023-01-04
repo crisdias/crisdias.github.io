@@ -33,3 +33,5 @@ gem 'babosa'
 gem 'cloudinary'
 gem 'yourls'
 gem 'thor'
+
+gem "webrick", "~> 1.7"
