@@ -3,8 +3,8 @@ title: "Death of the narrator? Apple unveils suite of AI-voiced audiobooks — T
 metadate: "hide"
 categories: [ artigo ]
 cloudinary: "d/death-of-narrator.png"
-visit: https://www.theguardian.com/technology/2023/jan/04/apple-artificial-intelligence-ai-audiobooks
-finalurl: https://www.theguardian.com/technology/2023/jan/04/apple-artificial-intelligence-ai-audiobooks
+visit: http://go.crisdias.com/7rs
+finalurl: http://go.crisdias.com/7rs
 verb: Leia
 permalink: /death-of-narrator
 permalink: /death-of-narrator
