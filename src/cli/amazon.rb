@@ -3,14 +3,14 @@ def amazon_grabber(asin)
     puts ""
 
     Paapi.configure do |config|
-    config.access_key = ENV['AWS_ACCESS_KEY_ID']
-    config.secret_key = ENV['AWS_SECRET_ACCESS_KEY']
-    # config.partner_tag = ENV['AMAZON_ASSOCIATES_TRACKING_ID']
-    config.partner_market = {br: ENV['AMAZON_ASSOCIATES_TRACKING_ID']}
+        config.access_key = ENV['AWS_ACCESS_KEY_ID']
+        config.secret_key = ENV['AWS_SECRET_ACCESS_KEY']
+        # config.partner_tag = ENV['AMAZON_ASSOCIATES_TRACKING_ID']
+        config.partner_market = {br: ENV['AMAZON_ASSOCIATES_TRACKING_ID']}
     end
     
     client = Paapi::Client.new(market: :br)
-    
+
     gi = client.get_items(item_ids: asin).hash
 
     data = {}
