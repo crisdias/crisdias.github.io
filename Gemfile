@@ -27,6 +27,8 @@ gem 'etc'			, '>= 1.1.0'
 gem 'ffi'			, '>= 1.13.1'
 gem 'gdbm'			, '>= 2.1.0'
 
+gem 'public_suffix' , '>=4.0.6'
+
 # cris
 gem 'paapi'
 gem 'babosa'
