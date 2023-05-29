@@ -52,7 +52,8 @@ class CrisCLI < Thor
     data = amazon_grabber(asin)
 
     yourls = Yourls::Client.new(ENV['YOURLS_URL'], ENV['YOURLS_TOKEN'], {offset: 0})
-    data['shorturl'] = yourls.shorten(data['linkto']).short_url
+
+    data['shorturl'] = yourls.shorten(data['linkto'], title: data['titulo']).short_url
 
     data['cloudinary'] = cloudinary_upload(data)
     post_render(data)
