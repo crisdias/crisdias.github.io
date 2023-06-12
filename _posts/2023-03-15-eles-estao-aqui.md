@@ -1,7 +1,7 @@
 ---
 title: "Eles Estão Aqui — Uma ficção original Globoplay produzida pela Ampère"
 metadate: "hide"
-categories: [ podcast, ficção, scifi, ampere ]
+categories: [ podcast, ficção, scifi, ampère ]
 cloudinary: "e/eles-estao-aqui.png"
 visit: http://go.crisdias.com/aqui
 finalurl: http://go.crisdias.com/aqui

@@ -1,7 +1,7 @@
 ---
 title: "The Medium Is the Massage: An Inventory of Effects — Marshall McLuhan, Quentin Fiore"
 metadate: "hide"
-categories: [ livro, NÃO-FICÇÃO, marshall-mcluhan, quentin-fiore ]
+categories: [ livro, não-ficção, marshall-mcluhan, quentin-fiore ]
 cloudinary: "m/medium-is-the-massage-an-inventory-of-effects.jpg"
 visit: http://go.crisdias.com/7rf
 finalurl: http://go.crisdias.com/7rf

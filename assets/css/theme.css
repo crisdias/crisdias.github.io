@@ -554,3 +554,10 @@ a.post-visit {
   color: black;
 }
 
+div.long-cat-list a {
+  color: grey;
+}
+
+div.long-cat-list a:hover {
+  text-decoration: underline;
+}

@@ -1,7 +1,7 @@
 ---
 title: Jorge Drexler, NPR Music Tiny Desk Concert
 metadate: hide
-categories: [ música, américa latina, espanhol, uruguai, vídeo ]
+categories: [ música ]
 image: "/assets/images/j/jorge-drexler.png"
 visit: "https://www.youtube.com/watch?v=qn6rgisZm1M"
 verb: 'Ouça'
