@@ -11,7 +11,7 @@ layout: default
                 
     			<article class="card">
 
-                     {% if page.image %} 
+                    {% if page.image %} 
                         <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
                     {% endif %}
 
