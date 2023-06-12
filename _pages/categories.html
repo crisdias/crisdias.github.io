@@ -18,30 +18,35 @@ permalink: "/categories.html"
         
         {% assign sortedCategories = site.categories | sort %}
         
-        {% assign sortedCategories = site.categories | sort %}
-        
         {% assign categoriesNamesArray = "" %}
         {% for category in site.categories %}
-        {% assign categoryName = category | first | downcase %}
-        {% assign categoriesNamesArray = categoriesNamesArray | append: categoryName | append: "^" %}
+            {% assign categoryName = category | first | downcase %}
+            {% assign slugified = categoryName | slugify %}
+            {% assign categoriesNamesArray = categoriesNamesArray | append: slugified | append: "^" %}
         {% endfor %}
         
         {% assign sortedCategoriesNamesArray = categoriesNamesArray | split: "^" | sort %}
         
         {% assign categoriesList = "" %}
         {% for categoryName in sortedCategoriesNamesArray %}
-            {% for category in site.categories %}
-                {% if category[0] | downcase == categoryName %}
-                        {% assign breakLoop = true %}
-                        {% assign categoryLink = site.baseurl | append: "/categories.html#" | append: categoryName | downcase %}
+            {% assign jafoi = false %}
+            {% for category in sortedCategories %}
+                {% unless jafoi %}
+                    {% assign displayName = category[0] %}
+                    {% if displayName | slugify == categoryName %}
+                        {% assign slugified = categoryName | slugify %}
+                    
+                        {% assign categoryLink = site.baseurl | append: "/categories.html#" | append: slugified | downcase %}
                         
                         {% if categoriesList.size > 1 %}
                             {% assign categoriesList = categoriesList | append: ", " %}
                         {% endif %}
-                    {% assign categoriesList = categoriesList | append: '<a class="long-cat-list"
-                    href="' | append: categoryLink | append: '">' | append: categoryName | append: '</a>' %}
-                    {% break %}
-                {% endif %}
+
+                        {% assign categoriesList = categoriesList | append: '<a class="long-cat-list"
+                            href="' | append: categoryLink | append: '">' | append: categoryName | append: '</a>' %}
+                        {% assign jafoi = true %}
+                    {% endif %}
+                {% endunless %}
             {% endfor %}
         {% endfor %}
     
@@ -57,7 +62,7 @@ permalink: "/categories.html"
     
     
     {% for category in sortedCategories %}
-        <h3 class="mt-4 display-4" id="{{ category[0] | downcase }}"><small class="text-muted">#</small> {{ category[0] }}</h3><hr>
+        <h3 class="mt-4 display-4" id="{{ category[0] | downcase | slugify }}"><small class="text-muted">#</small> {{ category[0] }}</h3><hr>
         
         <div class="card-columns">
 

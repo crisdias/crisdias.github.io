@@ -29,6 +29,7 @@
         src="{{site.baseurl}}/assets/js/cloudinary-core-shrinkwrap.js"
         type="text/javascript">
     </script>
+
     
     {% include tracking-header.html %}
     
@@ -78,5 +79,21 @@
     {% include cloudinary-footer.html %}
     
 </body>
+
+<script type="text/javascript">
+    // Obtenha a altura da barra de navegação fixa
+    var navbar = document.querySelector('nav.navbar');
+    var navbarHeight = navbar.offsetHeight;
+
+    // Manipule o deslocamento ao rolar para a posição correta
+    window.addEventListener('hashchange', function () {
+        var hash = decodeURIComponent(window.location.hash); // Decodifique a hash
+        var target = document.querySelector(hash);
+        if (target) {
+            var targetOffset = target.offsetTop - navbarHeight;
+            window.scrollTo(window.scrollX, targetOffset);
+        }
+    });
+</script>
     
 </html>
