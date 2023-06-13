@@ -15,7 +15,7 @@
                 <p class="post-short">{{ post.content }}</p>
                 <p>
                     {% for category in post.categories %}
-                      <a class="card-cat" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
+                      <a class="card-cat" href="{{site.baseurl}}/categories.html#{{ category | downcase | slugify }}">
                         #{{ category }}
                       </a>
                     {% endfor %}

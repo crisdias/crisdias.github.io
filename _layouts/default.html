@@ -84,17 +84,32 @@
         var navbarHeight = navbar.offsetHeight;
 
         // Manipule o deslocamento ao rolar para a posição correta
-        window.addEventListener('hashchange', function () {
-            var hash = decodeURIComponent(window.location.hash); // Decodifique a hash
+        function handleAnchorScroll() {
+            var hash = decodeURIComponent(window.location.hash);
             var target = document.querySelector(hash);
             if (target) {
                 var targetOffset = target.offsetTop - navbarHeight;
-                window.scrollTo(window.scrollX, targetOffset);
+                window.scrollTo({
+                    top: targetOffset,
+                    behavior: 'smooth'
+                });
             }
+        }
+
+        // Ouvinte de evento hashchange
+        window.addEventListener('hashchange', function () {
+            handleAnchorScroll();
+        });
+
+        // Aguarde o carregamento completo da página
+        document.addEventListener('DOMContentLoaded', function () {
+            // Adicione um atraso para garantir que a página tenha sido totalmente renderizada
+            setTimeout(handleAnchorScroll, 100);
         });
     </script>
-    
-</body>
+    </body>
+
+
 
 
     
