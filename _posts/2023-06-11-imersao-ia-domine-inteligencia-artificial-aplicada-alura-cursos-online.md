@@ -1,7 +1,7 @@
 ---
 title: "Imersão IA grátis: Domine Inteligência Artificial Aplicada da Alura"
 metadate: "hide"
-categories: [ curso ]
+categories: [ curso, alura ]
 cloudinary: "i/imersao-ia-domine-inteligencia-artificial-aplicada-alura-cursos-online.jpg"
 visit: http://go.crisdias.com/7s3
 finalurl: http://go.crisdias.com/7s3
