@@ -77,23 +77,25 @@
     
     {% include tracking-footer.html %}
     {% include cloudinary-footer.html %}
+
+    <script type="text/javascript">
+        // Obtenha a altura da barra de navegação fixa
+        var navbar = document.querySelector('nav.navbar');
+        var navbarHeight = navbar.offsetHeight;
+
+        // Manipule o deslocamento ao rolar para a posição correta
+        window.addEventListener('hashchange', function () {
+            var hash = decodeURIComponent(window.location.hash); // Decodifique a hash
+            var target = document.querySelector(hash);
+            if (target) {
+                var targetOffset = target.offsetTop - navbarHeight;
+                window.scrollTo(window.scrollX, targetOffset);
+            }
+        });
+    </script>
     
 </body>
 
-<script type="text/javascript">
-    // Obtenha a altura da barra de navegação fixa
-    var navbar = document.querySelector('nav.navbar');
-    var navbarHeight = navbar.offsetHeight;
 
-    // Manipule o deslocamento ao rolar para a posição correta
-    window.addEventListener('hashchange', function () {
-        var hash = decodeURIComponent(window.location.hash); // Decodifique a hash
-        var target = document.querySelector(hash);
-        if (target) {
-            var targetOffset = target.offsetTop - navbarHeight;
-            window.scrollTo(window.scrollX, targetOffset);
-        }
-    });
-</script>
     
 </html>
