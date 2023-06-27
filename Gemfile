@@ -30,11 +30,13 @@ gem 'gdbm'			, '>= 2.1.0'
 gem 'public_suffix' , '>=4.0.6'
 
 # cris
+gem 'sass-embedded', '~> 1.63', '>= 1.63.6'
 gem 'paapi'
 gem 'babosa'
 gem 'cloudinary'
 gem 'yourls'
 gem 'thor'
 gem 'nokogiri'
+gem 'ruby-lsp'
 
 gem "webrick", "~> 1.7"

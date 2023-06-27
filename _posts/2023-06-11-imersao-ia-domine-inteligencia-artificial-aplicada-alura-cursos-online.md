@@ -10,5 +10,6 @@ permalink: /imersao-ia-domine-inteligencia-artificial-aplicada-alura-cursos-onli
 permalink: /imersao-ia-domine-inteligencia-artificial-aplicada-alura-cursos-online
 short: "Intensivão de 5 dias da Alura para você sair dominando a IA no seu trabalho. Não é necessário nenhum conhecimento prévio nem mesmo ser da área técnica."
 date: 2023-06-11 20:46:39
+published: false
 ---
 Intensivão de 5 dias da Alura para você sair dominando a IA no seu trabalho. Não é necessário nenhum conhecimento prévio nem mesmo ser da área técnica.
