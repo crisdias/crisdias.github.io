@@ -20,9 +20,9 @@ def link_grabber(link)
 
 
     data['linkto'] = link
-    data['image'] = image
-    data['titulo'] = doc.css("title").first.text
-    data['autor'] = autor
+    data['image'] = image rescue "SEM IMAGEM"
+    data['titulo'] = doc.css("title").first.text rescue "SEM TITULO"
+    data['autor'] = autor rescue "SEM AUTOR"
 
     data['categorias'] = 'artigo'
     data['authors_txt'] = data['autor']
