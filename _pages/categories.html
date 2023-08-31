@@ -5,9 +5,9 @@ permalink: "/categories.html"
 ---
 
 <section class="mt-4 mb-5">
-    
+
     <div class="container mb-1">
-        <h1 class="font-weight-bold title">Todas as dicas</h1>    
+        <h1 class="font-weight-bold title">Todas as dicas</h1>
     </div>
 
 
@@ -15,29 +15,30 @@ permalink: "/categories.html"
 
     <div class="long-cat-list container">
 
-        
+
         {% assign sortedCategories = site.categories | sort %}
-        
+
         {% assign categoriesNamesArray = "" %}
         {% for category in site.categories %}
             {% assign categoryName = category | first | downcase %}
             {% assign slugified = categoryName | slugify %}
             {% assign categoriesNamesArray = categoriesNamesArray | append: slugified | append: "^" %}
         {% endfor %}
-        
+
         {% assign sortedCategoriesNamesArray = categoriesNamesArray | split: "^" | sort %}
-        
+
         {% assign categoriesList = "" %}
         {% for categoryName in sortedCategoriesNamesArray %}
             {% assign jafoi = false %}
             {% for category in sortedCategories %}
                 {% unless jafoi %}
                     {% assign displayName = category[0] %}
-                    {% if displayName | slugify == categoryName %}
+                    {% assign temp = displayName | slugify %}
+                    {% if temp == categoryName %}
                         {% assign slugified = categoryName | slugify %}
-                    
+
                         {% assign categoryLink = site.baseurl | append: "/categories.html#" | append: slugified | downcase %}
-                        
+
                         {% if categoriesList.size > 1 %}
                             {% assign categoriesList = categoriesList | append: ", " %}
                         {% endif %}
@@ -49,21 +50,21 @@ permalink: "/categories.html"
                 {% endunless %}
             {% endfor %}
         {% endfor %}
-    
+
         {{ categoriesList }}
-                
-                
+
+
     </div>
 
 
 
 
 
-    
-    
+
+
     {% for category in sortedCategories %}
         <h3 class="mt-4 display-4" id="{{ category[0] | downcase | slugify }}"><small class="text-muted">#</small> {{ category[0] }}</h3><hr>
-        
+
         <div class="card-columns">
 
             {% assign pages_list = category[1] %}
@@ -80,5 +81,5 @@ permalink: "/categories.html"
         </div>
     {% endfor %}
 </div>
-    
+
 </section>
