@@ -9,6 +9,10 @@ def amazon_grabber(asin)
         config.partner_market = {br: ENV['AMAZON_ASSOCIATES_TRACKING_ID']}
     end
 
+    # puts "Configuração da API da Amazon:"
+    # puts "Access Key: #{ENV['AWS_ACCESS_KEY_ID']}"
+    # puts "Secret Key: #{ENV['AWS_SECRET_ACCESS_KEY']}"
+
     client = Paapi::Client.new(market: :br)
 
     gi = client.get_items(item_ids: asin).hash
