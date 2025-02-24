@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby "3.1.1"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -30,7 +30,7 @@ gem 'gdbm'			, '>= 2.1.0'
 gem 'public_suffix' , '>=4.0.6'
 
 # cris
-gem 'sass-embedded', '~> 1.63', '>= 1.63.6'
+gem 'sass-embedded', '~> 1.85.0'
 gem 'paapi'
 gem 'babosa'
 gem 'cloudinary'
