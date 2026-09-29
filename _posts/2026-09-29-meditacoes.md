@@ -10,4 +10,8 @@ permalink: /meditacoes-marco-aurelio
 short: ""
 date: 2026-09-29 05:54:54
 ---
-No episódio [“Controle”](https://boanoiteinternet.com.br/p/controle-6b1), do Boa Noite Internet, usei [_Gladiador_](https://br.justwatch.com/br/filme/gladiador) para explicar o estoicismo. Marco Aurélio aparece no filme como mentor de Maximus e, fora da ficção, foi o imperador romano que escreveu _Meditações_, anotações dirigidas a si mesmo sobre caráter, dever e aquilo que podemos ou não controlar.
+Estoicismo é um tema que está no meu radar tem muitos anos. Cheguei a falar dele no episódio “Controle” do podcast, de 2019. Nele eu uso o filme “Gladiador” para falar dessa filosofia de vida que tem como um dos principais pensadores um dos personagens do filme: ninguém menos que o imperador Marco Aurélio.
+
+“Meditações” é o mais próximo que se tem de uma “Bíblia do Estoicismo”, mas não é um texto relogioso nem mesmo filosófico. Era só o diário de Marco Aurélio, conversando com si mesmo no que devia ser o cargo mais solitário do mundo naquela época. O resultado são pequenos textos sobre caráter, dever e aquilo que podemos ou não controlar, que nem precisam ser lidos na ordem em que estão no livro.
+
+E está por menos de R$ 5 no Kindle, pra você levar no bolso e abrir rapidinho em vez de ficar rolando em rede social.
